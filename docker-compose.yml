@@ -1,0 +1,13 @@
+services:
+  dev-db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: nest
+    ports:
+      - "5432:5432"
+    networks:
+      - nest
+networks:
+  nest:
