@@ -24,7 +24,15 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+The Bookmark Backend Service project is designed to manage and organize bookmark data through a RESTful API, providing users with an easy way to store, retrieve, and manage links. Built using NestJS and TypeScript, this project offers scalable backend architecture for handling bookmark-related operations.
+
+Key Features:
+User Authentication: Secure user registration and login functionalities.
+Bookmark CRUD Operations: Allows users to create, read, update, and delete bookmarks.
+Database Integration: Utilizes Prisma ORM for effective database interaction with type-safe queries.
+API Endpoints: Exposes REST API endpoints to interact with bookmark data.
+Containerization: The application is containerized using Docker, ensuring easy deployment across different environments.
+This project is a backend service designed for use in a bookmarking application, providing an efficient way to manage large-scale bookmark data with scalability in mind.
 
 ## Project setup
 
